@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TypeSprint</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="logo">⌨️ TypeSprint</div>
+    <nav class="nav">
+      <a href="/" data-link>Главная</a>
+      <a href="/train" data-link>Тренировка</a>
+      <a href="/race" data-link>Гонка</a>
+      <a href="/stats" data-link>Статистика</a>
+      <a href="/settings" data-link>Настройки</a>
+      <a href="/about" data-link>О проекте</a>
+    </nav>
+    <button id="themeToggle" class="btn ghost" title="Тема">🌓</button>
+  </header>
+
+  <main id="app" class="container"></main>
+
+  <footer class="footer">v0.2 • Без фреймворков • © <span id="year"></span></footer>
+
+  <script src="app.js"></script>
+  <script src="pages/home.js"></script>
+  <script src="pages/train.js"></script>
+  <script src="pages/race.js"></script>
+  <script src="pages/stats.js"></script>
+  <script src="pages/settings.js"></script>
+  <script src="pages/about.js"></script>
+  <script src="js/router.js"></script>
+</body>
+</html> 
